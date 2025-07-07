@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {
-    linkedin: 'https://www.linkedin.com/in/mvipin/',
+    linkedin: 'mvipin',
     x: '',
     mastodon: '',
     researchGate: '',
