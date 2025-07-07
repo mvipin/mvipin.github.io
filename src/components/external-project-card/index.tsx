@@ -25,35 +25,51 @@ const ExternalProjectCard = ({
               <div className="w-full">
                 <div className="flex items-start px-4">
                   <div className="w-full">
-                    <h2>
-                      {skeleton({
-                        widthCls: 'w-32',
-                        heightCls: 'h-8',
-                        className: 'mb-2 mx-auto',
-                      })}
-                    </h2>
-                    <div className="avatar w-full h-full">
-                      <div className="w-24 h-24 mask mask-squircle mx-auto">
+                    <div className="h-full">
+                      <h2 className="mb-3">
                         {skeleton({
-                          widthCls: 'w-full',
-                          heightCls: 'h-full',
-                          shape: '',
+                          widthCls: 'w-32',
+                          heightCls: 'h-6',
+                          className: 'mb-2 mx-auto md:mx-0',
                         })}
+                      </h2>
+                      <div className="flex flex-col md:block">
+                        <div className="avatar mx-auto md:mx-0 md:float-left md:mr-4 mb-3 md:mb-0">
+                          <div className="w-32 h-32 mask mask-squircle">
+                            {skeleton({
+                              widthCls: 'w-full',
+                              heightCls: 'h-full',
+                              shape: '',
+                            })}
+                          </div>
+                        </div>
+                        <div className="space-y-2">
+                          {skeleton({
+                            widthCls: 'w-full',
+                            heightCls: 'h-4',
+                          })}
+                          {skeleton({
+                            widthCls: 'w-full',
+                            heightCls: 'h-4',
+                          })}
+                          {skeleton({
+                            widthCls: 'w-full',
+                            heightCls: 'h-4',
+                          })}
+                          {skeleton({
+                            widthCls: 'w-full',
+                            heightCls: 'h-4',
+                          })}
+                          {skeleton({
+                            widthCls: 'w-full',
+                            heightCls: 'h-4',
+                          })}
+                          {skeleton({
+                            widthCls: 'w-3/4',
+                            heightCls: 'h-4',
+                          })}
+                        </div>
                       </div>
-                    </div>
-                    <div className="mt-2">
-                      {skeleton({
-                        widthCls: 'w-full',
-                        heightCls: 'h-4',
-                        className: 'mx-auto',
-                      })}
-                    </div>
-                    <div className="mt-2 flex items-center flex-wrap justify-center">
-                      {skeleton({
-                        widthCls: 'w-full',
-                        heightCls: 'h-4',
-                        className: 'mx-auto',
-                      })}
                     </div>
                   </div>
                 </div>
@@ -94,27 +110,47 @@ const ExternalProjectCard = ({
             <div className="w-full">
               <div className="px-4">
                 <div className="text-center w-full">
-                  <h2 className="font-medium text-center opacity-60 mb-2">
-                    {item.title}
-                  </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            widthCls: 'w-full',
-                            heightCls: 'h-full',
-                            shape: '',
-                          })}
-                        />
+                  <div className="h-full">
+                    <h2 className="font-bold text-center text-primary mb-3 text-lg leading-tight">
+                      {item.title}
+                    </h2>
+                    <div className="flex flex-col md:block">
+                      {item.imageUrl && (
+                        <div className="avatar opacity-90 mx-auto md:mx-0 md:float-left md:mr-4 mb-3 md:mb-0">
+                          <div className="w-32 h-32 mask mask-squircle">
+                            <LazyImage
+                              src={item.imageUrl}
+                              alt={'thumbnail'}
+                              placeholder={skeleton({
+                                widthCls: 'w-full',
+                                heightCls: 'h-full',
+                                shape: '',
+                              })}
+                            />
+                          </div>
+                        </div>
+                      )}
+                      <div className="text-base-content text-sm text-justify leading-relaxed">
+                        {(() => {
+                          const parts = item.description.split('Tech Stack:');
+                          if (parts.length === 2) {
+                            return (
+                              <>
+                                <p className="mb-3">{parts[0].trim()}</p>
+                                <div className="border-t border-base-300 pt-3">
+                                  <p className="font-medium">
+                                    <span className="font-semibold text-secondary">Tech Stack: </span>
+                                    <span className="text-accent">{parts[1].trim()}</span>
+                                  </p>
+                                </div>
+                              </>
+                            );
+                          }
+                          return <p>{item.description}</p>;
+                        })()}
                       </div>
                     </div>
-                  )}
-                  <p className="mt-2 text-base-content text-sm text-justify">
-                    {item.description}
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
