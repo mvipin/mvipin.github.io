@@ -17,7 +17,7 @@ import ThemeChanger from './theme-changer';
 import { BG_COLOR } from '../constants';
 import AvatarCard from './avatar-card';
 import { Profile } from '../interfaces/profile';
-import DetailsCard from './details-card';
+
 import SkillCard from './skill-card';
 import ExperienceCard from './experience-card';
 import EducationCard from './education-card';
@@ -144,13 +144,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                     loading={loading}
                     avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                     resumeFileUrl={sanitizedConfig.resume.fileUrl}
-                  />
-                  <DetailsCard
-                    profile={profile}
-                    loading={loading}
-                    github={sanitizedConfig.github}
                     social={sanitizedConfig.social}
+                    github={sanitizedConfig.github}
                   />
+
                   {sanitizedConfig.skills.length !== 0 && (
                     <SkillCard
                       loading={loading}
