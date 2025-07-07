@@ -363,6 +363,11 @@ interface Config {
   publications?: Array<Publication>;
 
   /**
+   * Academic Publication list
+   */
+  academicPublications?: Array<Publication>;
+
+  /**
    * Resume
    */
   resume?: Resume;

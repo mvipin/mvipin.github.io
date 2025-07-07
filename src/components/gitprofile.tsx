@@ -27,6 +27,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import AcademicPublicationCard from './academic-publication-card';
 
 /**
  * Renders the GitProfile component.
@@ -192,6 +193,12 @@ const GitProfile = ({ config }: { config: Config }) => {
                     <PublicationCard
                       loading={loading}
                       publications={sanitizedConfig.publications}
+                    />
+                  )}
+                  {sanitizedConfig.academicPublications.length !== 0 && (
+                    <AcademicPublicationCard
+                      loading={loading}
+                      publications={sanitizedConfig.academicPublications}
                     />
                   )}
                   {sanitizedConfig.blog.display && (

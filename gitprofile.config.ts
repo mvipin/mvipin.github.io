@@ -96,66 +96,142 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Atmosic Technologies',
+      position: 'Sr. Manager of Technology',
+      from: 'November 2019',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.atmosic.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'SparkMyThought Labs',
+      position: 'Co-founder and Robotics Specialist',
+      from: 'June 2016',
+      to: 'October 2019',
+      companyLink: '',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Aintu, Inc.',
+      position: 'Mobile Application Development and Data Analytics Consultant',
+      from: 'June 2016',
+      to: 'September 2019',
+      companyLink: '',
+    },
+    {
+      company: 'Qualcomm',
+      position: 'Senior Staff Engineer',
+      from: 'September 2013',
+      to: 'June 2016',
+      companyLink: 'https://www.qualcomm.com',
+    },
+    {
+      company: 'Qualcomm',
+      position: 'Staff Engineer',
+      from: 'May 2011',
+      to: 'September 2013',
+      companyLink: 'https://www.qualcomm.com',
+    },
+    {
+      company: 'Atheros Communications',
+      position: 'Principal Engineer',
+      from: 'September 2008',
+      to: 'May 2011',
+      companyLink: '',
+    },
+    {
+      company: 'Atheros Communications',
+      position: 'Senior Engineer',
+      from: 'April 2004',
+      to: 'August 2008',
+      companyLink: '',
+    },
+    {
+      company: 'UC Irvine',
+      position: 'Graduate Research Assistant',
+      from: 'May 2002',
+      to: 'April 2004',
+      companyLink: 'https://uci.edu',
     },
   ],
+  certifications: [],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'UC Irvine',
+      degree: 'Master of Science (MS), Computer Science',
+      from: '2002',
+      to: '2004',
+      details: 'Specialization: Networking and Wireless Communication',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Indian Institute of Technology, Delhi',
+      degree: 'B. Tech., Electrical Engineering',
+      from: '1996',
+      to: '2000',
+      details: 'Major: Electrical and Electronics Engineering, Minor: Computer Science',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Link aggregation in wireless local area networks',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'US Patent 14/229,571 • Issued Feb 7, 2017',
+      authors: 'Vipin Mehta and other inventors',
+      link: 'https://patents.google.com/patent/US9554303B2',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Methods, systems, and devices are described for establishing a virtual communication link including at least a first and second physical link between two devices. A single virtual packet queue of a device may receive one or more data packets to be transmitted via the virtual communication link. The single virtual packet queue may attach a virtual sequence number to each of the one or more data packets and send the one or more data packets to one or more of the first or the second physical link according to the assigned virtual sequence numbers.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Systems and methods for concurrent device discovery',
+      conferenceName: '',
+      journalName: 'US Patent 13/791,522 • Issued Mar 8, 2013',
+      authors: 'Vipin Mehta and other inventors',
+      link: 'https://patents.google.com/patent/US8406153B2',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Systems and methods are provided for performing multiple operations associated with a peer-to-peer network in parallel by using two or more independent transceivers. When performing a device discovery protocol, one transceiver may operate in a listen state and another transceiver may operate in a search state, so that an exchange of discovery messages may occur with a peer, regardless of whether the peer is in the listen state or the search state.',
+    },
+    {
+      title: 'Systems and methods for link augmentation',
+      conferenceName: '',
+      journalName: 'US Patent 13/831,171 • Filed Mar 14, 2013',
+      authors: 'Vipin Mehta and other inventors',
+      link: 'https://patents.google.com/patent/US13831171',
+      description:
+        'Systems and methods are provided for coordinating operation of two or more WLAN subsystems in a single physical device to perform an operation more efficiently, such as with greater throughput. An existing communication link may be established between first WLAN subsystems of two wireless communications devices and augmented with an auxiliary link formed between second WLAN subsystems.',
+    },
+  ],
+  // Academic publications and research papers
+  academicPublications: [
+    {
+      title: 'A Bluetooth based Sensor Network for Civil Infrastructure Health Monitoring',
+      conferenceName: '',
+      journalName: 'ACM WINET Journal, Vol 10',
+      authors: 'Vipin Mehta and other authors',
+      link: '',
+      description:
+        'Communicating with sensors has long been limited either to wired connections or to proprietary wireless communication protocols. Using a ubiquitous and inexpensive wireless communication technology to create Sensor Area Networks (SANs) will accelerate the extensive deployment of sensor technology. Bluetooth, an emerging, worldwide standard for inexpensive, local wireless communication is a viable choice for SANs because of its inherent support of the important requirements - low power, small form factor, low cost and sufficient communication range.',
+    },
+    {
+      title: 'An Ultra Wide Band (UWB) based Sensor Network for Civil Infrastructure Health Monitoring',
+      conferenceName: 'EWSN - International Conference on Embedded Wireless Systems and Networks, Berlin',
+      journalName: '',
+      authors: 'Vipin Mehta and other authors',
+      link: '',
+      description:
+        'Communicating with sensors has long been limited either to wired connections or to proprietary wireless communication protocols. Using a ubiquitous and inexpensive wireless communication technology to create Sensor Networks will accelerate the extensive deployment of sensor technology. Ultra Wide Band (UWB), an emerging, worldwide standard for low power, high throughput local wireless communication is a viable choice for sensor networks because of its inherent support for some of the important requirements – throughput governed adaptive communication range, low power, low cost and small form factor.',
+    },
+    {
+      title: 'Fixed Sensor Networks for Civil Infrastructure Monitoring',
+      conferenceName: 'Proceedings Med-Hoc-Net, Sardegna, Italy',
+      journalName: '',
+      authors: 'Vipin Mehta and other authors',
+      link: '',
+      description:
+        'Research on fixed sensor networks for monitoring civil infrastructure, focusing on wireless communication protocols and network topology optimization for structural health monitoring applications.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -219,11 +295,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: '',
 
   enablePWA: true,
 };

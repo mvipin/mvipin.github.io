@@ -135,6 +135,7 @@ export interface SanitizedConfig {
   educations: Array<SanitizedEducation>;
   certifications: Array<SanitizedCertification>;
   publications: Array<SanitizedPublication>;
+  academicPublications: Array<SanitizedPublication>;
   googleAnalytics: SanitizedGoogleAnalytics;
   hotjar: SanitizedHotjar;
   blog: SanitizedBlog;

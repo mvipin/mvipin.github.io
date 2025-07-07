@@ -3,7 +3,7 @@ import { AiOutlineBook } from 'react-icons/ai';
 import { SanitizedPublication } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
 
-const PublicationCard = ({
+const AcademicPublicationCard = ({
   publications,
   loading,
 }: {
@@ -43,6 +43,20 @@ const PublicationCard = ({
                     </div>
                     <div>
                       {skeleton({
+                        widthCls: 'w-20',
+                        heightCls: 'h-4',
+                        className: 'mb-2 mx-auto',
+                      })}
+                    </div>
+                    <div className="mt-3">
+                      {skeleton({
+                        widthCls: 'w-full',
+                        heightCls: 'h-4',
+                        className: 'mb-2 mx-auto',
+                      })}
+                    </div>
+                    <div>
+                      {skeleton({
                         widthCls: 'w-full',
                         heightCls: 'h-4',
                         className: 'mb-2 mx-auto',
@@ -57,7 +71,7 @@ const PublicationCard = ({
                     </div>
                     <div>
                       {skeleton({
-                        widthCls: 'w-full',
+                        widthCls: 'w-1/2',
                         heightCls: 'h-4',
                         className: 'mb-2 mx-auto',
                       })}
@@ -140,12 +154,12 @@ const PublicationCard = ({
                   <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
-                      : 'Patents'}
+                      : 'Publications'}
                   </h3>
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Showcasing ${publications.length} patents`}
+                      : `Showcasing ${publications.length} publications`}
                   </div>
                 </div>
               </div>
@@ -160,4 +174,4 @@ const PublicationCard = ({
   );
 };
 
-export default PublicationCard;
+export default AcademicPublicationCard;
