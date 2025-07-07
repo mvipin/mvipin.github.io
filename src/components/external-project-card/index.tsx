@@ -132,6 +132,7 @@ const ExternalProjectCard = ({
                       )}
                       <div className="text-base-content text-sm text-justify leading-relaxed">
                         {(() => {
+                          if (!item.description) return null;
                           const parts = item.description.split('Tech Stack:');
                           if (parts.length === 2) {
                             return (
