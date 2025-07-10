@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Quadruped Walker: Four-Legged Robot with Gait Planning',
+          description:
+            'A quadruped robot built on ROS 2 with dynamically switchable gaits, joint-level control, and terrain-aware walking using camera data. Tech Stack: ROS2 • Gait Planning • Quadruped',
+          imageUrl:
+            '/assets/images/quadruped.jpg',
+          link: 'https://github.com/sparkmt/quadruped_robot',
+        },
+        {
           title: 'ChessMate: The Ultimate Robotic Chess Opponent',
           description:
             'A fully autonomous chess-playing robot that physically manipulates pieces with sub-millimeter precision using a custom SCARA arm, 64 hall-effect sensors, and Stockfish AI integration. Built with ROS 2, custom electronics (CNC-milled PCBs), and expressive animatronics—combining precision robotics, artificial intelligence, and engaging human-robot interaction. Tech Stack: ROS 2 • Python/C++ • Stockfish • Arduino • Raspberry Pi',
@@ -41,12 +49,44 @@ const CONFIG = {
           link: 'https://github.com/mvipin/ChessMate',
         },
         {
-          title: 'Project Name',
+          title: 'Bipedal Robot: Dynamic Gait and Balance',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A bipedal robot with inverse kinematics, dynamic gait switching, and stabilization using ROS 2 control and simulation in Gazebo. Tech Stack: ROS2 • Gait Control • Simulation',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '/assets/images/bipedal.jpg',
+          link: 'https://github.com/sparkmt/bipedal_robot',
+        },
+        {
+          title: 'AutoPilot Plane: ROS 2 + ArduPilot Integration',
+          description:
+            'An autonomous fixed-wing drone powered by ArduPilot, with MAVROS integration in ROS 2 for mission planning and sensor fusion. Tech Stack: ROS2 • MAVROS • Drones',
+          imageUrl:
+            '/assets/images/plane.jpg',
+          link: 'https://github.com/sparkmt/ardupilot_plane',
+        },
+        {
+          title: 'Rubik\'s Cube Solver: Vision-Guided Manipulation Robot',
+          description:
+            'A robotic system that solves a Rubik\'s cube using computer vision to detect the cube state and robotic arms for actuation. Built with ROS 2. Tech Stack: ROS2 • Computer Vision • Manipulation',
+          imageUrl:
+            '/assets/images/rubik.jpg',
+          link: 'https://github.com/sparkmt/rubiks_solver',
+        },
+        {
+          title: 'Self-Balancing Bot: Dynamic Stability with ROS 2',
+          description:
+            'A two-wheeled self-balancing robot using IMU + encoder sensor fusion and PID control with ROS 2. Simulated in Gazebo and visualized in RViz2. Tech Stack: ROS2 • Control Systems • Sensor Fusion',
+          imageUrl:
+            '/assets/images/selfbalance.jpg',
+          link: 'https://github.com/sparkmt/selfbalance_bot',
+        },
+        {
+          title: 'SnakeBot: Modular Serpentine Robot',
+          description:
+            'A bio-inspired modular snake robot using central pattern generators (CPGs) for locomotion. Controlled via ROS 2 and visualized in RViz. Tech Stack: ROS2 • CPG • Modular Robotics',
+          imageUrl:
+            '/assets/images/snakebot.jpg',
+          link: 'https://github.com/sparkmt/snakebot',
         },
       ],
     },
