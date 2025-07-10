@@ -115,7 +115,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Vipin Mehta', description: '', imageURL: '' },
   social: {
     linkedin: 'mvipin',
     x: '',
@@ -125,7 +125,7 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'rubbotix7261', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
