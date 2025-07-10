@@ -65,6 +65,30 @@ const CONFIG = {
           link: 'https://github.com/sparkmt/ardupilot_plane',
         },
         {
+          title: 'Roomba SLAM Navigator: Autonomous Floor Mapping & Navigation',
+          description:
+            'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
+          imageUrl:
+            '/assets/images/roomba_slam.jpg',
+          link: 'https://github.com/sparkmt/roomba_slam',
+        },
+        {
+          title: 'Cessna Flight Simulator: DIY Cockpit with Air Manager & MobiFlight',
+          description:
+            'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Air Manager • MobiFlight • Arduino • AI ATC • Multi-Monitor',
+          imageUrl:
+            '/assets/images/flight_sim.jpg',
+          link: 'https://github.com/sparkmt/cessna_simulator',
+        },
+        {
+          title: '6-DOF Robotic Arm: Advanced Inverse Kinematics Control',
+          description:
+            'Six degree-of-freedom robotic arm controlled via ROS 2 with real-time inverse kinematics solver using Jacobian-based methods and KDL (Kinematics and Dynamics Library). Features joint-space and Cartesian-space trajectory planning, collision detection using geometric primitives, and MoveIt! integration for motion planning. Supports both position and velocity control modes with force feedback. Tech Stack: ROS2 • MoveIt! • KDL • Inverse Kinematics • Trajectory Planning',
+          imageUrl:
+            '/assets/images/robotic_arm.jpg',
+          link: 'https://github.com/sparkmt/6dof_arm',
+        },
+        {
           title: 'Rubik\'s Cube Solver: Vision-Guided Manipulation Robot',
           description:
             'A robotic system that solves a Rubik\'s cube using computer vision to detect the cube state and robotic arms for actuation. Built with ROS 2. Tech Stack: ROS2 • Computer Vision • Manipulation',
