@@ -39,6 +39,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/quadruped.jpg',
           link: 'https://github.com/sparkmt/quadruped_robot',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'ChessMate: The Ultimate Robotic Chess Opponent',
@@ -47,6 +50,9 @@ const CONFIG = {
           imageUrl:
             'https://cdn.hackaday.io/images/1952301751198086793.jpg',
           link: 'https://github.com/mvipin/ChessMate',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'Bipedal Robot: Dynamic Gait and Balance',
@@ -55,6 +61,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/bipedal.jpg',
           link: 'https://github.com/sparkmt/bipedal_robot',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'AutoPilot Plane: ROS 2 + ArduPilot Integration',
@@ -63,6 +72,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/plane.jpg',
           link: 'https://github.com/sparkmt/ardupilot_plane',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'Roomba SLAM Navigator: Autonomous Floor Mapping & Navigation',
@@ -71,6 +83,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/roomba_slam.jpg',
           link: 'https://github.com/sparkmt/roomba_slam',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'Cessna Flight Simulator: DIY Cockpit with Air Manager & MobiFlight',
@@ -79,6 +94,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/flight_sim.jpg',
           link: 'https://github.com/sparkmt/cessna_simulator',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: '6-DOF Robotic Arm: Advanced Inverse Kinematics Control',
@@ -87,6 +105,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/robotic_arm.jpg',
           link: 'https://github.com/sparkmt/6dof_arm',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'Rubik\'s Cube Solver: Vision-Guided Manipulation Robot',
@@ -95,6 +116,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/rubik.jpg',
           link: 'https://github.com/sparkmt/rubiks_solver',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'Self-Balancing Bot: Dynamic Stability with ROS 2',
@@ -103,6 +127,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/selfbalance.jpg',
           link: 'https://github.com/sparkmt/selfbalance_bot',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'SnakeBot: Modular Serpentine Robot',
@@ -111,6 +138,9 @@ const CONFIG = {
           imageUrl:
             '/assets/images/snakebot.jpg',
           link: 'https://github.com/sparkmt/snakebot',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
       ],
     },

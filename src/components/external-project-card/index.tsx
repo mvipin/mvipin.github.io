@@ -1,6 +1,8 @@
 import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
 import { MdOpenInNew } from 'react-icons/md';
+import { AiFillGithub, AiFillYoutube } from 'react-icons/ai';
+import { SiHackaday } from 'react-icons/si';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
@@ -116,17 +118,58 @@ const ExternalProjectCard = ({
                     </h2>
                     <div className="flex flex-col md:block">
                       {item.imageUrl && (
-                        <div className="avatar opacity-90 mx-auto md:mx-0 md:float-left md:mr-4 mb-3 md:mb-0">
-                          <div className="w-32 h-32 mask mask-squircle">
-                            <LazyImage
-                              src={item.imageUrl}
-                              alt={'thumbnail'}
-                              placeholder={skeleton({
-                                widthCls: 'w-full',
-                                heightCls: 'h-full',
-                                shape: '',
-                              })}
-                            />
+                        <div className="mx-auto md:mx-0 md:float-left md:mr-4 mb-2 md:mb-0">
+                          <div className="avatar opacity-90">
+                            <div className="w-32 h-32 mask mask-squircle">
+                              <LazyImage
+                                src={item.imageUrl}
+                                alt={'thumbnail'}
+                                placeholder={skeleton({
+                                  widthCls: 'w-full',
+                                  heightCls: 'h-full',
+                                  shape: '',
+                                })}
+                              />
+                            </div>
+                          </div>
+                          {/* Project Links Icons */}
+                          <div className="flex justify-center gap-1 mt-1 md:w-32">
+                            {item.githubUrl && (
+                              <a
+                                href={item.githubUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-circle btn-xs btn-ghost opacity-70 hover:opacity-100"
+                                title="GitHub Repository"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                <AiFillGithub size={14} />
+                              </a>
+                            )}
+                            {item.youtubeUrl && (
+                              <a
+                                href={item.youtubeUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-circle btn-xs btn-ghost opacity-70 hover:opacity-100"
+                                title="YouTube Video"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                <AiFillYoutube size={14} />
+                              </a>
+                            )}
+                            {item.hackadayUrl && (
+                              <a
+                                href={item.hackadayUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-circle btn-xs btn-ghost opacity-70 hover:opacity-100"
+                                title="Hackaday Project"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                <SiHackaday size={14} />
+                              </a>
+                            )}
                           </div>
                         </div>
                       )}

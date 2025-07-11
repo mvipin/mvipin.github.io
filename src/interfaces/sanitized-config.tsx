@@ -24,6 +24,9 @@ export interface SanitizedExternalProject {
   description?: string;
   imageUrl?: string;
   link: string;
+  githubUrl?: string;
+  youtubeUrl?: string;
+  hackadayUrl?: string;
 }
 
 export interface SanitizedExternalProjects {
