@@ -49,7 +49,7 @@ const CONFIG = {
             'A fully autonomous chess-playing robot that physically manipulates pieces with sub-millimeter precision using a custom SCARA arm, 64 hall-effect sensors, and Stockfish AI integration. Built with ROS 2, custom electronics (CNC-milled PCBs), and expressive animatronics—combining precision robotics, artificial intelligence, and engaging human-robot interaction. Tech Stack: ROS 2 • Python/C++ • Stockfish • Arduino • Raspberry Pi',
           imageUrl:
             'https://cdn.hackaday.io/images/1952301751198086793.jpg',
-          link: 'https://github.com/mvipin/ChessMate',
+          link: 'https://github.com/mvipin/ChessMate-ROS2',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
