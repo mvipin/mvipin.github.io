@@ -77,14 +77,14 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/179225-hybrid-leg-for-bipedal-robot',
         },
         {
-          title: 'Rubik\'s Cube Solver: Vision-Guided Manipulation Robot',
+          title: 'Computer Vision based Rubik\'s Cube Solving Robot',
           description:
-            'A robotic system that solves a Rubik\'s cube using computer vision to detect the cube state and robotic arms for actuation. Built with ROS 2. Tech Stack: ROS2 • Computer Vision • Manipulation',
+            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural networks for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
           imageUrl:
             '/assets/images/rubik.jpg',
-          link: 'https://github.com/sparkmt/rubiks_solver',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          link: 'https://github.com/wangyuyyt/rubik_cube_solver',
+          githubUrl: 'https://github.com/wangyuyyt/rubik_cube_solver',
+          youtubeUrl: 'https://youtu.be/mwZZhnmK3QI',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
