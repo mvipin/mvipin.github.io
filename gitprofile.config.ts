@@ -121,15 +121,15 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
-          title: 'Self-Balancing Bot: Dynamic Stability with ROS 2',
+          title: 'Self-Balancing Robot: Inverted Pendulum Control System',
           description:
-            'A two-wheeled self-balancing robot using IMU + encoder sensor fusion and PID control with ROS 2. Simulated in Gazebo and visualized in RViz2. Tech Stack: ROS2 • Control Systems • Sensor Fusion',
+            'An advanced self-balancing robot demonstrating MPU6050 DMP hardware-accelerated orientation sensing, Bluetooth wireless monitoring, and adaptive motor control with dead band compensation. Implements three-term PID controller with tuned parameters for optimal balance performance and disturbance rejection. The system maintains dynamic stability through continuous feedback control at 200Hz sensor sampling rate. Tech Stack: Arduino • C++ • PID Control • MPU6050 DMP • I2C • PWM Motor Control • Bluetooth Serial',
           imageUrl:
-            '/assets/images/selfbalance.jpg',
-          link: 'https://github.com/sparkmt/selfbalance_bot',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+            '/assets/images/hammer.gif',
+          link: 'https://github.com/mvipin/thorplusplus',
+          githubUrl: 'https://github.com/mvipin/thorplusplus',
+          youtubeUrl: 'https://youtu.be/sJUxSGPo8PQ',
+          hackadayUrl: 'https://hackaday.io/project/177208-enchanted-thor-hammer',
         },
         {
           title: 'SnakeBot: Modular Serpentine Robot',
