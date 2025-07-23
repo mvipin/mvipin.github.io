@@ -57,13 +57,13 @@ const CONFIG = {
         {
           title: 'Bipedal Robot: Dynamic Gait and Balance',
           description:
-            'A bipedal robot with inverse kinematics, dynamic gait switching, and stabilization using ROS 2 control and simulation in Gazebo. Tech Stack: ROS2 • Gait Control • Simulation',
+            'The Biped Hybrid project implements a sophisticated robotic leg system that combines serial and parallel kinematic chains to achieve 6 degrees of freedom (DOF) motion. This hybrid approach enables complex locomotion patterns while maintaining mechanical efficiency and control precision. More details available in the project repository. Tech Stack: Arduino • C++ • Servo Control • Denavit-Hartenberg • Inverse Kinematics',
           imageUrl:
-            '/assets/images/bipedal.jpg',
-          link: 'https://github.com/sparkmt/bipedal_robot',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+            'https://cdn.hackaday.io/images/original/2397321621729491726.gif',
+          link: 'https://github.com/mvipin/biped-hybrid',
+          githubUrl: 'https://github.com/mvipin/biped-hybrid',
+          youtubeUrl: 'https://youtu.be/3PNreAL9f4w',
+          hackadayUrl: 'https://hackaday.io/project/179225-hybrid-leg-for-bipedal-robot',
         },
         {
           title: 'AutoPilot Plane: ROS 2 + ArduPilot Integration',
