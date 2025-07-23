@@ -126,7 +126,7 @@ const CONFIG = {
             'An autonomous fixed-wing drone powered by ArduPilot, with MAVROS integration in ROS 2 for mission planning and sensor fusion. Tech Stack: ROS2 • MAVROS • Drones',
           imageUrl:
             '/assets/images/plane.jpg',
-          link: 'https://github.com/sparkmt/ardupilot_plane',
+          link: 'https://github.com/mvipin',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
@@ -137,7 +137,7 @@ const CONFIG = {
             'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Air Manager • MobiFlight • Arduino • AI ATC • Multi-Monitor',
           imageUrl:
             '/assets/images/flight_sim.jpg',
-          link: 'https://github.com/sparkmt/cessna_simulator',
+          link: 'https://github.com/mvipin',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
