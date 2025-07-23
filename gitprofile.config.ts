@@ -59,7 +59,7 @@ const CONFIG = {
           description:
             'The Biped Hybrid project implements a sophisticated robotic leg system that combines serial and parallel kinematic chains to achieve 6 degrees of freedom (DOF) motion. This hybrid approach enables complex locomotion patterns while maintaining mechanical efficiency and control precision. More details available in the project repository. Tech Stack: Arduino • C++ • Servo Control • Denavit-Hartenberg • Inverse Kinematics',
           imageUrl:
-            'https://cdn.hackaday.io/images/original/2397321621729491726.gif',
+            'assets/images/bipedal.gif',
           link: 'https://github.com/mvipin/biped-hybrid',
           githubUrl: 'https://github.com/mvipin/biped-hybrid',
           youtubeUrl: 'https://youtu.be/3PNreAL9f4w',
@@ -81,7 +81,7 @@ const CONFIG = {
           description:
             'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
           imageUrl:
-            '/assets/images/roomba_slam.jpg',
+            '/assets/images/roomba.gif',
           link: 'https://github.com/sparkmt/roomba_slam',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
@@ -134,13 +134,13 @@ const CONFIG = {
         {
           title: 'SnakeBot: Modular Serpentine Robot',
           description:
-            'A bio-inspired modular snake robot using central pattern generators (CPGs) for locomotion. Controlled via ROS 2 and visualized in RViz. Tech Stack: ROS2 • CPG • Modular Robotics',
+            'SlitherBot is a biomimetic snake robot demonstrating graceful serpentine locomotion using cost-effective components and innovative design. Features 16 modular 3D printed ribs, micro-servo actuation, and revolutionary structured sheet skin inspired by Disney Research. Implements natural snake-like movement using cosine wave motion control with infrared obstacle detection and autonomous navigation capabilities. Tech Stack: Arduino • C++ • Servo Control • PWM • Biomimetic Locomotion • 3D Printing • Structured Materials • Orthotropic Design',
           imageUrl:
-            '/assets/images/snakebot.jpg',
-          link: 'https://github.com/sparkmt/snakebot',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+            '/assets/images/snake.gif',
+          link: 'https://github.com/mvipin/slitherbot',
+          githubUrl: 'https://github.com/mvipin/slitherbot',
+          youtubeUrl: 'https://youtu.be/Q69HzF_Xq_s',
+          hackadayUrl: 'https://hackaday.io/project/178463-slitherbot',
         },
       ],
     },
