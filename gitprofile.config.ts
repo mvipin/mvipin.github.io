@@ -33,12 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Quadruped Walker: Four-Legged Robot with Gait Planning',
+          title: 'Roomba SLAM Navigator: Autonomous Floor Mapping & Navigation',
           description:
-            'A quadruped robot built on ROS 2 with dynamically switchable gaits, joint-level control, and terrain-aware walking using camera data. Tech Stack: ROS2 • Gait Planning • Quadruped',
+            'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
           imageUrl:
-            '/assets/images/quadruped.jpg',
-          link: 'https://github.com/sparkmt/quadruped_robot',
+            '/assets/images/roomba.gif',
+          link: 'https://github.com/sparkmt/roomba_slam',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
@@ -55,6 +55,17 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
+          title: 'Quadruped Walker: Four-Legged Robot with Gait Planning',
+          description:
+            'A quadruped robot built on ROS 2 with dynamically switchable gaits, joint-level control, and terrain-aware walking using camera data. Tech Stack: ROS2 • Gait Planning • Quadruped',
+          imageUrl:
+            '/assets/images/quadruped.jpg',
+          link: 'https://github.com/sparkmt/quadruped_robot',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+        },
+        {
           title: 'Bipedal Robot: Dynamic Gait and Balance',
           description:
             'The Biped Hybrid project implements a sophisticated robotic leg system that combines serial and parallel kinematic chains to achieve 6 degrees of freedom (DOF) motion. This hybrid approach enables complex locomotion patterns while maintaining mechanical efficiency and control precision. More details available in the project repository. Tech Stack: Arduino • C++ • Servo Control • Denavit-Hartenberg • Inverse Kinematics',
@@ -66,34 +77,12 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/179225-hybrid-leg-for-bipedal-robot',
         },
         {
-          title: 'AutoPilot Plane: ROS 2 + ArduPilot Integration',
+          title: 'Rubik\'s Cube Solver: Vision-Guided Manipulation Robot',
           description:
-            'An autonomous fixed-wing drone powered by ArduPilot, with MAVROS integration in ROS 2 for mission planning and sensor fusion. Tech Stack: ROS2 • MAVROS • Drones',
+            'A robotic system that solves a Rubik\'s cube using computer vision to detect the cube state and robotic arms for actuation. Built with ROS 2. Tech Stack: ROS2 • Computer Vision • Manipulation',
           imageUrl:
-            '/assets/images/plane.jpg',
-          link: 'https://github.com/sparkmt/ardupilot_plane',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
-        },
-        {
-          title: 'Roomba SLAM Navigator: Autonomous Floor Mapping & Navigation',
-          description:
-            'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
-          imageUrl:
-            '/assets/images/roomba.gif',
-          link: 'https://github.com/sparkmt/roomba_slam',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
-        },
-        {
-          title: 'Cessna Flight Simulator: DIY Cockpit with Air Manager & MobiFlight',
-          description:
-            'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Air Manager • MobiFlight • Arduino • AI ATC • Multi-Monitor',
-          imageUrl:
-            '/assets/images/flight_sim.jpg',
-          link: 'https://github.com/sparkmt/cessna_simulator',
+            '/assets/images/rubik.jpg',
+          link: 'https://github.com/sparkmt/rubiks_solver',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
@@ -105,17 +94,6 @@ const CONFIG = {
           imageUrl:
             '/assets/images/robotic_arm.jpg',
           link: 'https://github.com/sparkmt/6dof_arm',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
-        },
-        {
-          title: 'Rubik\'s Cube Solver: Vision-Guided Manipulation Robot',
-          description:
-            'A robotic system that solves a Rubik\'s cube using computer vision to detect the cube state and robotic arms for actuation. Built with ROS 2. Tech Stack: ROS2 • Computer Vision • Manipulation',
-          imageUrl:
-            '/assets/images/rubik.jpg',
-          link: 'https://github.com/sparkmt/rubiks_solver',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
@@ -141,6 +119,28 @@ const CONFIG = {
           githubUrl: 'https://github.com/mvipin/slitherbot',
           youtubeUrl: 'https://youtu.be/Q69HzF_Xq_s',
           hackadayUrl: 'https://hackaday.io/project/178463-slitherbot',
+        },
+        {
+          title: 'AutoPilot Plane: ROS 2 + ArduPilot Integration',
+          description:
+            'An autonomous fixed-wing drone powered by ArduPilot, with MAVROS integration in ROS 2 for mission planning and sensor fusion. Tech Stack: ROS2 • MAVROS • Drones',
+          imageUrl:
+            '/assets/images/plane.jpg',
+          link: 'https://github.com/sparkmt/ardupilot_plane',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+        },
+        {
+          title: 'Cessna Flight Simulator: DIY Cockpit with Air Manager & MobiFlight',
+          description:
+            'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Air Manager • MobiFlight • Arduino • AI ATC • Multi-Monitor',
+          imageUrl:
+            '/assets/images/flight_sim.jpg',
+          link: 'https://github.com/sparkmt/cessna_simulator',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
       ],
     },
