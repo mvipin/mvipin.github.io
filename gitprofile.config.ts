@@ -55,13 +55,13 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
-          title: 'Quadruped Walker: Four-Legged Robot with Gait Planning',
+          title: 'Mini Pupper: Open-Source ROS Quadruped Robot Platform',
           description:
-            'A quadruped robot built on ROS 2 with dynamically switchable gaits, joint-level control, and terrain-aware walking using camera data. Tech Stack: ROS2 • Gait Planning • Quadruped',
+            'Open-source quadruped robot platform with ROS SLAM/Navigation integration, Lidar sensing, and OAK-D-Lite 3D camera. Features multiple gait patterns (Trot, Pace, Bound), Raspberry Pi 4 control, 12x servo actuation, and PS4 controller interface. Supports computer vision applications and autonomous navigation. Tech Stack: ROS • Python • OpenCV • Raspberry Pi • Lidar • Computer Vision • SLAM • Navigation',
           imageUrl:
             '/assets/images/quadruped.jpg',
-          link: 'https://github.com/sparkmt/quadruped_robot',
-          githubUrl: 'https://github.com/mvipin',
+          link: 'https://github.com/mangdangroboticsclub/mini_pupper_ros',
+          githubUrl: 'https://github.com/mangdangroboticsclub/mini_pupper_ros',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
