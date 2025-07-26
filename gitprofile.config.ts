@@ -33,7 +33,7 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Roomba SLAM Navigator: Autonomous Floor Mapping & Navigation',
+          title: 'Perceptor: Autonomous Floor Mapping & Navigation',
           description:
             'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
           imageUrl:
