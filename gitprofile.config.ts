@@ -38,10 +38,10 @@ const CONFIG = {
             'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
           imageUrl:
             '/assets/images/roomba.gif',
-          link: 'https://github.com/sparkmt/roomba_slam',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+          link: 'https://github.com/mvipin/perceptor',
+          githubUrl: 'https://github.com/mvipin/perceptor',
+          youtubeUrl: 'https://youtube.com/shorts/L82NRSjmyg0',
+          hackadayUrl: 'https://hackaday.io/project/203547-perceptor-autonomous-floor-mapping-navigation',
         },
         {
           title: 'ChessMate: The Ultimate Robotic Chess Opponent',
