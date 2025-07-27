@@ -81,7 +81,7 @@ const CONFIG = {
           description:
             'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural networks for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
           imageUrl:
-            '/assets/images/rubik.jpg',
+            '/assets/images/cube.gif',
           link: 'https://github.com/wangyuyyt/rubik_cube_solver',
           githubUrl: 'https://github.com/wangyuyyt/rubik_cube_solver',
           youtubeUrl: 'https://youtu.be/mwZZhnmK3QI',
