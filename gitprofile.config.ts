@@ -40,7 +40,7 @@ const CONFIG = {
             '/assets/images/roomba.gif',
           link: 'https://github.com/mvipin/perceptor',
           githubUrl: 'https://github.com/mvipin/perceptor',
-          youtubeUrl: 'https://youtube.com/shorts/L82NRSjmyg0',
+          youtubeUrl: 'https://www.youtube.com/playlist?list=PLmUgsufWocy-3w0uKOAjEmPxq2Nj_awAS',
           hackadayUrl: 'https://hackaday.io/project/203547-perceptor-autonomous-floor-mapping-navigation',
         },
         {
