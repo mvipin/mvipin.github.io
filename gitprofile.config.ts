@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Perceptor: Autonomous Floor Mapping & Navigation',
           description:
-            'Modified Roomba platform running ROS 2 with custom sensor integration (LiDAR, IMU, wheel encoders) for simultaneous localization and mapping (SLAM). Implements gmapping/cartographer for real-time floor plan generation, AMCL for localization, and move_base for autonomous navigation to user-specified coordinates with dynamic obstacle avoidance. Tech Stack: ROS2 • SLAM • Navigation Stack • LiDAR',
+            'Modified Roomba platform with integrated RPLiDAR sensor for comprehensive SLAM and navigation capabilities. Features real-time mapping using slam_toolbox with pose graph optimization, AMCL localization for precise positioning, and Nav2 navigation stack for autonomous path planning. Implements advanced navigation features including dynamic obstacle detection, keepout zones for restricted areas, variable speed limits, multi-waypoint patrol routes, and real-time collision monitoring with emergency stop capabilities. Supports both manual teleoperation via Bluetooth gamepad and fully autonomous operation with sensor fusion (wheel odometry + IMU) using Extended Kalman Filter. Tech Stack: ROS2 • SLAM • Path Planning • Autonomous Navigation • RPLiDAR • AMCL • Sensor Fusion • Bluetooth Teleoperation',
           imageUrl:
             '/assets/images/roomba.gif',
           link: 'https://github.com/mvipin/perceptor',
