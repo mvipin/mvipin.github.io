@@ -33,6 +33,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'GestureBot: Computer Vision-Controlled Robot Platform',
+          description:
+            'Comprehensive computer vision system for robotics applications, specifically designed for the GestureBot platform. Features real-time object detection, gesture recognition, hand/pose tracking, and seamless integration with ROS 2 Navigation stack for autonomous robot control through intuitive hand gestures. Supports 9 distinct hand gestures for robot control including thumbs up/down for start/stop navigation, open palm for pause, fist for emergency stop, and directional pointing for movement commands. Implements adaptive processing system with priority-based feature management, achieving ~15 FPS object detection and ~12 FPS gesture recognition. Tech Stack: ROS2 • MediaPipe • OpenCV • Computer Vision • Gesture Recognition • Raspberry Pi 5 • Navigation • Object Detection • Hand Tracking',
+          imageUrl:
+            '/assets/images/gesturebot.jpg',
+          link: 'https://github.com/mvipin/gesturebot',
+          githubUrl: 'https://github.com/mvipin/gesturebot',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/project/203704-gesturebot',
+        },
+        {
           title: 'Perceptor: Autonomous Floor Mapping & Navigation',
           description:
             'Modified Roomba platform with integrated RPLiDAR sensor for comprehensive SLAM and navigation capabilities. Features real-time mapping using slam_toolbox with pose graph optimization, AMCL localization for precise positioning, and Nav2 navigation stack for autonomous path planning. Implements advanced navigation features including dynamic obstacle detection, keepout zones for restricted areas, variable speed limits, multi-waypoint patrol routes, and real-time collision monitoring with emergency stop capabilities. Supports both manual teleoperation via Bluetooth gamepad and fully autonomous operation with sensor fusion (wheel odometry + IMU) using Extended Kalman Filter. Tech Stack: ROS2 • SLAM • Path Planning • Autonomous Navigation • RPLiDAR • AMCL • Sensor Fusion • Bluetooth Teleoperation',
@@ -119,17 +130,6 @@ const CONFIG = {
           githubUrl: 'https://github.com/mvipin/slitherbot',
           youtubeUrl: 'https://youtu.be/Q69HzF_Xq_s',
           hackadayUrl: 'https://hackaday.io/project/178463-slitherbot',
-        },
-        {
-          title: 'AutoPilot Plane: ROS 2 + ArduPilot Integration',
-          description:
-            'An autonomous fixed-wing drone powered by ArduPilot, with MAVROS integration in ROS 2 for mission planning and sensor fusion. Tech Stack: ROS2 • MAVROS • Drones',
-          imageUrl:
-            '/assets/images/plane.jpg',
-          link: 'https://github.com/mvipin',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: 'Cessna Flight Simulator: DIY Cockpit with Air Manager & MobiFlight',
