@@ -66,15 +66,15 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
-          title: 'Mini Pupper: Open-Source ROS Quadruped Robot Platform',
+          title: 'TrotBot: Advanced ROS2 Quadruped Robot Platform',
           description:
-            'Open-source quadruped robot platform with ROS SLAM/Navigation integration, Lidar sensing, and OAK-D-Lite 3D camera. Features multiple gait patterns (Trot, Pace, Bound), Raspberry Pi 4 control, 12x servo actuation, and PS4 controller interface. Supports computer vision applications and autonomous navigation. Tech Stack: ROS • Python • OpenCV • Raspberry Pi • Lidar • Computer Vision • SLAM • Navigation',
+            'Comprehensive ROS2 quadruped robotics platform built on the CHAMP framework with custom enhancements for educational robotics and research applications. Features configurable leg geometry with custom segment lengths, Raspberry Pi 5 + PCA9685 servo control system, enhanced teleop with Nintendo Pro Controller support, dual backend Hardware Abstraction Layer (Adafruit CircuitPython + sysfs PWM), comprehensive inverse kinematics with workspace validation, and full Gazebo simulation capabilities with seamless real hardware deployment. Implements layered control architecture with 100Hz gait generation, 50Hz servo updates, and safety features including deadman switches and emergency stops. Tech Stack: ROS2 • CHAMP Framework • Raspberry Pi 5 • PCA9685 • Inverse Kinematics • Gazebo Simulation • Hardware Abstraction Layer',
           imageUrl:
-            '/assets/images/quadruped.jpg',
-          link: 'https://github.com/mangdangroboticsclub/mini_pupper_ros',
-          githubUrl: 'https://github.com/mangdangroboticsclub/mini_pupper_ros',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+            '/assets/images/trotbot.gif',
+          link: 'https://github.com/mvipin/trotbot',
+          githubUrl: 'https://github.com/mvipin/trotbot',
+          youtubeUrl: 'https://www.youtube.com/playlist?list=PLmUgsufWocy-ZaqOsWWwt1tAy33R9EwFb',
+          hackadayUrl: 'https://hackaday.io/project/203989-trotbot',
         },
         {
           title: 'Bipedal Robot: Dynamic Gait and Balance',
