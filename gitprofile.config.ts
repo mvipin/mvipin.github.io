@@ -173,17 +173,64 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Device Drivers',
-    'C',
+    // Core Programming & Systems
     'Python',
     'C++',
-    'Bluetooth',
-    'WiFi',
+    'C',
+
+    // Robotics & AI Stack
     'ROS2',
     'OpenCV',
-    'Zephyr',
-    'Linux',
+    'MediaPipe',
+    'TensorFlow',
+    'MoveIt2',
+    'Nav2',
+    'SLAM Toolbox',
+    'AMCL',
+
+    // Perception & Planning
+    'Computer Vision',
+    'Gesture Recognition',
+    'Sensor Fusion (EKF)',
+    'Path Planning',
+    'Inverse Kinematics',
+    'PID Control',
+
+    // Hardware Platforms
+    'Raspberry Pi',
+    'Arduino',
+    'ESP32',
+
+    // Sensors & Electronics
+    'RPLiDAR',
+    'RGB Cameras',
+    'Depth Cameras',
+    'IMU Sensors',
+    'DC/Servo/Stepper Motor Control',
+    'Custom PCB Design',
+
+    // Simulation & Visualization
+    'Gazebo',
+    'RViz2',
+    'URDF/Xacro',
+
+    // Operating Systems & RTOS
+    'Linux (Ubuntu/Debian)',
     'FreeRTOS',
+    'Zephyr RTOS',
+
+    // Communication & Protocols
+    'I2C',
+    'SPI',
+    'UART',
+    'Bluetooth',
+    'Wi-Fi',
+    'Device Drivers',
+
+    // Development Tools
+    'Git',
+    'Docker',
+    'CI/CD',
   ],
   experiences: [
     {
