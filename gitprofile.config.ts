@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Comprehensive computer vision system for robotics applications, specifically designed for the GestureBot platform. Features real-time object detection, gesture recognition, hand/pose tracking, and seamless integration with ROS 2 Navigation stack for autonomous robot control through intuitive hand gestures. Supports 9 distinct hand gestures for robot control including thumbs up/down for start/stop navigation, open palm for pause, fist for emergency stop, and directional pointing for movement commands. Implements adaptive processing system with priority-based feature management, achieving ~15 FPS object detection and ~12 FPS gesture recognition. Tech Stack: ROS2 • MediaPipe • OpenCV • Computer Vision • Gesture Recognition • Raspberry Pi 5 • Navigation • Object Detection • Hand Tracking',
           imageUrl:
-            '/assets/images/gesturebot.jpg',
+            '/assets/images/gesturebot.gif',
           link: 'https://github.com/mvipin/gesturebot',
           githubUrl: 'https://github.com/mvipin/gesturebot',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
