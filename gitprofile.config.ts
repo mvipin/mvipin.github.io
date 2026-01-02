@@ -33,6 +33,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'ChefMate: Multi-Ingredient Manipulation with VLA Models',
+          description:
+            'Advanced robotic manipulation system implementing NVIDIA GR00T N1.5 Vision-Language-Action model for multi-ingredient sandwich assembly tasks. Features complete sim-to-real and real-to-sim digital twin pipeline with Isaac Sim/Lab integration, MimicGen data augmentation. Implements comprehensive USD scene design with proper rigid body hierarchies, dual-camera system calibrated for optimal performance, and dynamic ingredient selection for automated data generation. Solves critical language-vision association challenges through LLM fine-tuning, enabling zero-shot adaptation to menu variations. Tech Stack: NVIDIA GR00T N1.5 • Isaac Sim/Lab • MimicGen • LeRobot • ACT • Diffusion Policy • LoRA Fine-tuning • ROS2 • USD Scene Design • VLA Models',
+          imageUrl:
+            '/assets/images/chefmate.gif',
+          link: 'https://github.com/mvipin/chefmate',
+          githubUrl: 'https://github.com/mvipin/chefmate',
+          youtubeUrl: 'https://www.youtube.com/playlist?list=PLmUgsufWocy8o8Q3oQnF66XBNGicFExsi',
+          hackadayUrl: 'https://hackaday.io/project/204187-fine-tuning-gr00t-n15-for-robotic-manipulation',
+        },
+        {
           title: 'GestureBot: Computer Vision-Controlled Robot Platform',
           description:
             'Comprehensive computer vision system for robotics applications, specifically designed for the GestureBot platform. Features real-time object detection, gesture recognition, hand/pose tracking, and seamless integration with ROS 2 Navigation stack for autonomous robot control through intuitive hand gestures. Supports 9 distinct hand gestures for robot control including thumbs up/down for start/stop navigation, open palm for pause, fist for emergency stop, and directional pointing for movement commands. Implements adaptive processing system with priority-based feature management, achieving ~15 FPS object detection and ~12 FPS gesture recognition. Tech Stack: ROS2 • MediaPipe • OpenCV • Computer Vision • Gesture Recognition • Raspberry Pi 5 • Navigation • Object Detection • Hand Tracking',
@@ -40,7 +51,7 @@ const CONFIG = {
             '/assets/images/gesturebot.gif',
           link: 'https://github.com/mvipin/gesturebot',
           githubUrl: 'https://github.com/mvipin/gesturebot',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          youtubeUrl: 'https://www.youtube.com/playlist?list=PLmUgsufWocy-pplu9-BMSh6g2yGAAwCQW',
           hackadayUrl: 'https://hackaday.io/project/203704-gesturebot',
         },
         {
@@ -48,7 +59,7 @@ const CONFIG = {
           description:
             'Modified Roomba platform with integrated RPLiDAR sensor for comprehensive SLAM and navigation capabilities. Features real-time mapping using slam_toolbox with pose graph optimization, AMCL localization for precise positioning, and Nav2 navigation stack for autonomous path planning. Implements advanced navigation features including dynamic obstacle detection, keepout zones for restricted areas, variable speed limits, multi-waypoint patrol routes, and real-time collision monitoring with emergency stop capabilities. Supports both manual teleoperation via Bluetooth gamepad and fully autonomous operation with sensor fusion (wheel odometry + IMU) using Extended Kalman Filter. Tech Stack: ROS2 • SLAM • Path Planning • Autonomous Navigation • RPLiDAR • AMCL • Sensor Fusion • Bluetooth Teleoperation',
           imageUrl:
-            '/assets/images/roomba.gif',
+            '/assets/images/perceptor.gif',
           link: 'https://github.com/mvipin/perceptor',
           githubUrl: 'https://github.com/mvipin/perceptor',
           youtubeUrl: 'https://www.youtube.com/playlist?list=PLmUgsufWocy-3w0uKOAjEmPxq2Nj_awAS',
@@ -59,11 +70,11 @@ const CONFIG = {
           description:
             'A fully autonomous chess-playing robot that physically manipulates pieces with sub-millimeter precision using a custom SCARA arm, 64 hall-effect sensors, and Stockfish AI integration. Built with ROS 2, custom electronics (CNC-milled PCBs), and expressive animatronics—combining precision robotics, artificial intelligence, and engaging human-robot interaction. Tech Stack: ROS 2 • Python/C++ • Stockfish • Arduino • Raspberry Pi',
           imageUrl:
-            'https://cdn.hackaday.io/images/1952301751198086793.jpg',
+            '/assets/images/chessmate.gif',
           link: 'https://github.com/mvipin/ChessMate-ROS2',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+          githubUrl: 'https://github.com/mvipin/ChessMate-ROS2',
+          youtubeUrl: 'https://www.youtube.com/playlist?list=PLmUgsufWocy9A0GdMjyu7Tg_oavEbhUdh',
+          hackadayUrl: 'https://hackaday.io/project/203400-chessmate-ros2-chess-robot',
         },
         {
           title: 'TrotBot: Advanced ROS2 Quadruped Robot Platform',
@@ -77,6 +88,17 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/203989-trotbot',
         },
         {
+          title: 'Computer Vision based Rubik\'s Cube Solving Robot',
+          description:
+            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural networks for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
+          imageUrl:
+            '/assets/images/cube.gif',
+          link: 'hhttps://github.com/mvipin/rubik_cube_solver',
+          githubUrl: 'https://github.com/mvipin/rubik_cube_solver',
+          youtubeUrl: 'https://youtu.be/mwZZhnmK3QI',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+        },
+        {
           title: 'Bipedal Robot: Dynamic Gait and Balance',
           description:
             'The Biped Hybrid project implements a sophisticated robotic leg system that combines serial and parallel kinematic chains to achieve 6 degrees of freedom (DOF) motion. This hybrid approach enables complex locomotion patterns while maintaining mechanical efficiency and control precision. More details available in the project repository. Tech Stack: Arduino • C++ • Servo Control • Denavit-Hartenberg • Inverse Kinematics',
@@ -86,17 +108,6 @@ const CONFIG = {
           githubUrl: 'https://github.com/mvipin/biped-hybrid',
           youtubeUrl: 'https://youtu.be/3PNreAL9f4w',
           hackadayUrl: 'https://hackaday.io/project/179225-hybrid-leg-for-bipedal-robot',
-        },
-        {
-          title: 'Computer Vision based Rubik\'s Cube Solving Robot',
-          description:
-            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural networks for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
-          imageUrl:
-            '/assets/images/cube.gif',
-          link: 'https://github.com/wangyuyyt/rubik_cube_solver',
-          githubUrl: 'https://github.com/wangyuyyt/rubik_cube_solver',
-          youtubeUrl: 'https://youtu.be/mwZZhnmK3QI',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
           title: '6-DOF Robotic Arm: Advanced Inverse Kinematics Control',
@@ -138,6 +149,17 @@ const CONFIG = {
           imageUrl:
             '/assets/images/flight_sim.jpg',
           link: 'https://github.com/mvipin',
+          githubUrl: 'https://github.com/mvipin',
+          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
+          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
+        },
+        {
+          title: 'SkyNav: Autonomous Fixed-Wing Aircraft Platform',
+          description:
+            'Advanced autonomous fixed-wing aircraft featuring complete ArduPilot autopilot integration for fully autonomous flight operations. Custom-designed airframe with 1.8m wingspan optimized for stable flight, with GPS waypoint accuracy within 2m CEP. Implements comprehensive sensor suite including dual GPS/GNSS receivers, 9-DOF IMU with magnetometer, barometric altimeter, and differential airspeed sensor for precise flight control. Features automatic takeoff and landing (ATOL) capabilities with runway approach accuracy within 5m, emergency failsafe systems with return-to-launch functionality, and real-time telemetry streaming at 915MHz. Ground control station integration via Mission Planner enables complex waypoint missions, geofencing, and live flight monitoring. Tech Stack: ArduPilot • Mission Planner • GPS/GNSS • IMU • Airspeed Sensors • RC Systems • Autonomous Navigation • Waypoint Missions • Failsafe Systems • Telemetry • Aircraft Design',
+          imageUrl:
+            '/assets/images/skynav.gif',
+          link: 'https://github.com/mvipin/skynavigator',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
