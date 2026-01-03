@@ -33,9 +33,9 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'ChefMate: Multi-Ingredient Manipulation with VLA Models',
+          title: 'ChefMate: Kitchen Robot using VLA Model, ACT and Diffusion Policy',
           description:
-            'Advanced robotic manipulation system implementing NVIDIA GR00T N1.5 Vision-Language-Action model for multi-ingredient sandwich assembly tasks. Features complete sim-to-real and real-to-sim digital twin pipeline with Isaac Sim/Lab integration, MimicGen data augmentation. Implements comprehensive USD scene design with proper rigid body hierarchies, dual-camera system calibrated for optimal performance, and dynamic ingredient selection for automated data generation. Solves critical language-vision association challenges through LLM fine-tuning, enabling zero-shot adaptation to menu variations. Tech Stack: NVIDIA GR00T N1.5 • Isaac Sim/Lab • MimicGen • LeRobot • ACT • Diffusion Policy • LoRA Fine-tuning • ROS2 • USD Scene Design • VLA Models',
+            'Advanced robotic manipulation system implemented using GR00T N1.5 Vision-Language-Action (VLA) model, ACT, and Diffusion policy for multi-ingredient sandwich assembly. Features sim-to-real and real-to-sim digital twin pipeline with Isaac Sim/Lab integration, MimicGen data augmentation. Implements comprehensive USD scene design with proper rigid body hierarchies, dual-camera system calibrated for optimal performance, and dynamic ingredient selection for automated data generation. Solves critical language-vision association challenges through LLM fine-tuning, enabling zero-shot adaptation to menu variations. Tech Stack: GR00T N1.5 VLA model • Isaac Sim/Lab • MimicGen • LeRobot • ACT • Diffusion Policy • LoRA Fine-tuning • USD Scene Design',
           imageUrl:
             '/assets/images/chefmate.gif',
           link: 'https://github.com/mvipin/chefmate',
@@ -44,7 +44,7 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/204187-fine-tuning-gr00t-n15-for-robotic-manipulation',
         },
         {
-          title: 'GestureBot: Computer Vision-Controlled Robot Platform',
+          title: 'GestureBot: ROS2 Computer Vision enabled Mobile Platform',
           description:
             'Comprehensive computer vision system for robotics applications, specifically designed for the GestureBot platform. Features real-time object detection, gesture recognition, hand/pose tracking, and seamless integration with ROS 2 Navigation stack for autonomous robot control through intuitive hand gestures. Supports 9 distinct hand gestures for robot control including thumbs up/down for start/stop navigation, open palm for pause, fist for emergency stop, and directional pointing for movement commands. Implements adaptive processing system with priority-based feature management, achieving ~15 FPS object detection and ~12 FPS gesture recognition. Tech Stack: ROS2 • MediaPipe • OpenCV • Computer Vision • Gesture Recognition • Raspberry Pi 5 • Navigation • Object Detection • Hand Tracking',
           imageUrl:
@@ -55,7 +55,7 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/203704-gesturebot',
         },
         {
-          title: 'Perceptor: Autonomous Floor Mapping & Navigation',
+          title: 'Perceptor: ROS2 Autonomous Mapping & Navigation',
           description:
             'Modified Roomba platform with integrated RPLiDAR sensor for comprehensive SLAM and navigation capabilities. Features real-time mapping using slam_toolbox with pose graph optimization, AMCL localization for precise positioning, and Nav2 navigation stack for autonomous path planning. Implements advanced navigation features including dynamic obstacle detection, keepout zones for restricted areas, variable speed limits, multi-waypoint patrol routes, and real-time collision monitoring with emergency stop capabilities. Supports both manual teleoperation via Bluetooth gamepad and fully autonomous operation with sensor fusion (wheel odometry + IMU) using Extended Kalman Filter. Tech Stack: ROS2 • SLAM • Path Planning • Autonomous Navigation • RPLiDAR • AMCL • Sensor Fusion • Bluetooth Teleoperation',
           imageUrl:
@@ -66,7 +66,7 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/203547-perceptor-autonomous-floor-mapping-navigation',
         },
         {
-          title: 'ChessMate: The Ultimate Robotic Chess Opponent',
+          title: 'ChessMate: ROS2 Chess Robot',
           description:
             'A fully autonomous chess-playing robot that physically manipulates pieces with sub-millimeter precision using a custom SCARA arm, 64 hall-effect sensors, and Stockfish AI integration. Built with ROS 2, custom electronics (CNC-milled PCBs), and expressive animatronics—combining precision robotics, artificial intelligence, and engaging human-robot interaction. Tech Stack: ROS 2 • Python/C++ • Stockfish • Arduino • Raspberry Pi',
           imageUrl:
@@ -77,9 +77,9 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/203400-chessmate-ros2-chess-robot',
         },
         {
-          title: 'TrotBot: Advanced ROS2 Quadruped Robot Platform',
+          title: 'TrotBot: ROS2 Quadruped Robot Platform',
           description:
-            'Comprehensive ROS2 quadruped robotics platform built on the CHAMP framework with custom enhancements for educational robotics and research applications. Features configurable leg geometry with custom segment lengths, Raspberry Pi 5 + PCA9685 servo control system, enhanced teleop with Nintendo Pro Controller support, dual backend Hardware Abstraction Layer (Adafruit CircuitPython + sysfs PWM), comprehensive inverse kinematics with workspace validation, and full Gazebo simulation capabilities with seamless real hardware deployment. Implements layered control architecture with 100Hz gait generation, 50Hz servo updates, and safety features including deadman switches and emergency stops. Tech Stack: ROS2 • CHAMP Framework • Raspberry Pi 5 • PCA9685 • Inverse Kinematics • Gazebo Simulation • Hardware Abstraction Layer',
+            'Comprehensive ROS2 quadruped robotics platform built on the CHAMP framework with configurable leg geometry. The software stack runs on Raspberry Pi 5 with PCA9685 servo control system, enhanced teleop with Nintendo Pro Controller support, dual backend Hardware Abstraction Layer (Adafruit CircuitPython + sysfs PWM), inverse kinematics with workspace validation, and full Gazebo simulation capabilities with seamless real hardware deployment. Implements layered control architecture with 100Hz gait generation, 50Hz servo updates, and safety features including deadman switches and emergency stops. Tech Stack: ROS2 • CHAMP Framework • Raspberry Pi 5 • PCA9685 • Inverse Kinematics • Gazebo Simulation • Hardware Abstraction Layer',
           imageUrl:
             '/assets/images/trotbot.gif',
           link: 'https://github.com/mvipin/trotbot',
@@ -90,7 +90,7 @@ const CONFIG = {
         {
           title: 'Computer Vision based Rubik\'s Cube Solving Robot',
           description:
-            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural networks for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
+            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural network for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
           imageUrl:
             '/assets/images/cube.gif',
           link: 'hhttps://github.com/mvipin/rubik_cube_solver',
@@ -149,17 +149,6 @@ const CONFIG = {
           imageUrl:
             '/assets/images/flight_sim.jpg',
           link: 'https://github.com/mvipin',
-          githubUrl: 'https://github.com/mvipin',
-          youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
-          hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
-        },
-        {
-          title: '6-DOF Robotic Arm: Advanced Inverse Kinematics Control',
-          description:
-            'Six degree-of-freedom robotic arm controlled via ROS 2 with real-time inverse kinematics solver using Jacobian-based methods and KDL (Kinematics and Dynamics Library). Features joint-space and Cartesian-space trajectory planning, collision detection using geometric primitives, and MoveIt! integration for motion planning. Supports both position and velocity control modes with force feedback. Tech Stack: ROS2 • MoveIt! • KDL • Inverse Kinematics • Trajectory Planning',
-          imageUrl:
-            '/assets/images/robotic_arm.jpg',
-          link: 'https://github.com/sparkmt/6dof_arm',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
