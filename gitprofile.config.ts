@@ -99,9 +99,9 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
-          title: 'Bipedal Robot: Dynamic Gait and Balance',
+          title: 'Biped Hybrid: 6-DOF Serial-Parallel Kinematic Leg System',
           description:
-            'The Biped Hybrid project implements a sophisticated robotic leg system that combines serial and parallel kinematic chains to achieve 6 degrees of freedom (DOF) motion. This hybrid approach enables complex locomotion patterns while maintaining mechanical efficiency and control precision. More details available in the project repository. Tech Stack: Arduino • C++ • Servo Control • Denavit-Hartenberg • Inverse Kinematics',
+            'Advanced bipedal robot leg based on Disney Research hybrid mechanism combining dual 5-bar serial-parallel kinematic chains for 6 degrees of freedom motion. Features analytical inverse kinematics with <10ms computation time enabling 50Hz real-time control, Denavit-Hartenberg parameter modeling, and Jacobian-based trajectory execution. Implements parametric gait generation with phase-shifted coordination, Gaussian lift profiles for natural foot motion, and dual harmonic forward swing patterns. Achieves ±2mm end-effector precision across 0.3m³ workspace with 120mm ground clearance per step. Comprehensive unit testing framework validates sagittal, vertical, and lateral motion axes. Tech Stack: Arduino • ESP32 • PCA9685 • Denavit-Hartenberg • Inverse Kinematics • Trajectory Planning • Gait Generation • 3D Printing • Servo Control',
           imageUrl:
             'assets/images/bipedal.gif',
           link: 'https://github.com/mvipin/biped-hybrid',
@@ -110,12 +110,12 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/179225-hybrid-leg-for-bipedal-robot',
         },
         {
-          title: '6-DOF Robotic Arm: Advanced Inverse Kinematics Control',
+          title: 'SkyNav: Autonomous Fixed-Wing Aircraft Platform',
           description:
-            'Six degree-of-freedom robotic arm controlled via ROS 2 with real-time inverse kinematics solver using Jacobian-based methods and KDL (Kinematics and Dynamics Library). Features joint-space and Cartesian-space trajectory planning, collision detection using geometric primitives, and MoveIt! integration for motion planning. Supports both position and velocity control modes with force feedback. Tech Stack: ROS2 • MoveIt! • KDL • Inverse Kinematics • Trajectory Planning',
+            'Advanced autonomous fixed-wing aircraft featuring complete ArduPilot autopilot integration for fully autonomous flight operations. Custom-designed airframe with 1.8m wingspan optimized for stable flight, with GPS waypoint accuracy within 2m CEP. Implements comprehensive sensor suite including dual GPS/GNSS receivers, 9-DOF IMU with magnetometer, barometric altimeter, and differential airspeed sensor for precise flight control. Features automatic takeoff and landing (ATOL) capabilities with runway approach accuracy within 5m, emergency failsafe systems with return-to-launch functionality, and real-time telemetry streaming at 915MHz. Ground control station integration via Mission Planner enables complex waypoint missions, geofencing, and live flight monitoring. Tech Stack: ArduPilot • Mission Planner • GPS/GNSS • IMU • Airspeed Sensors • RC Systems • Autonomous Navigation • Waypoint Missions • Failsafe Systems • Telemetry • Aircraft Design',
           imageUrl:
-            '/assets/images/robotic_arm.jpg',
-          link: 'https://github.com/sparkmt/6dof_arm',
+            '/assets/images/skynav.gif',
+          link: 'https://github.com/mvipin/skynavigator',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
@@ -154,12 +154,12 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
         {
-          title: 'SkyNav: Autonomous Fixed-Wing Aircraft Platform',
+          title: '6-DOF Robotic Arm: Advanced Inverse Kinematics Control',
           description:
-            'Advanced autonomous fixed-wing aircraft featuring complete ArduPilot autopilot integration for fully autonomous flight operations. Custom-designed airframe with 1.8m wingspan optimized for stable flight, with GPS waypoint accuracy within 2m CEP. Implements comprehensive sensor suite including dual GPS/GNSS receivers, 9-DOF IMU with magnetometer, barometric altimeter, and differential airspeed sensor for precise flight control. Features automatic takeoff and landing (ATOL) capabilities with runway approach accuracy within 5m, emergency failsafe systems with return-to-launch functionality, and real-time telemetry streaming at 915MHz. Ground control station integration via Mission Planner enables complex waypoint missions, geofencing, and live flight monitoring. Tech Stack: ArduPilot • Mission Planner • GPS/GNSS • IMU • Airspeed Sensors • RC Systems • Autonomous Navigation • Waypoint Missions • Failsafe Systems • Telemetry • Aircraft Design',
+            'Six degree-of-freedom robotic arm controlled via ROS 2 with real-time inverse kinematics solver using Jacobian-based methods and KDL (Kinematics and Dynamics Library). Features joint-space and Cartesian-space trajectory planning, collision detection using geometric primitives, and MoveIt! integration for motion planning. Supports both position and velocity control modes with force feedback. Tech Stack: ROS2 • MoveIt! • KDL • Inverse Kinematics • Trajectory Planning',
           imageUrl:
-            '/assets/images/skynav.gif',
-          link: 'https://github.com/mvipin/skynavigator',
+            '/assets/images/robotic_arm.jpg',
+          link: 'https://github.com/sparkmt/6dof_arm',
           githubUrl: 'https://github.com/mvipin',
           youtubeUrl: 'https://www.youtube.com/@rubbotix7261',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
