@@ -66,9 +66,9 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/203547-perceptor-autonomous-floor-mapping-navigation',
         },
         {
-          title: 'ChessMate: ROS2 Chess Robot',
+          title: 'ChessMate: AI Chess Robot with Sensors, SCARA arm',
           description:
-            'A fully autonomous chess-playing robot that physically manipulates pieces with sub-millimeter precision using a custom SCARA arm, 64 hall-effect sensors, and Stockfish AI integration. Built with ROS 2, custom electronics (CNC-milled PCBs), and expressive animatronics—combining precision robotics, artificial intelligence, and engaging human-robot interaction. Tech Stack: ROS 2 • Python/C++ • Stockfish • Arduino • Raspberry Pi',
+            'Fully autonomous chess-playing robot featuring ROS2 architecture (Raspberry Pi 4 + dual Pi Pico) with topic-based communication. Implements 6-DOF SCARA arm with sub-millimeter repeatability, NEMA 17 microstepping steppers, and four-corner calibration for 64-point square mapping. Custom CNC-milled PCBs integrate 64 hall-effect sensors with I2C expanders for real-time piece detection and 8×8 NeoPixel LED matrix for move visualization. Stockfish engine integration provides professional-grade chess AI with configurable thinking time and position analysis. Features expressive servo-driven animatronic eyes, OLED display with rotary encoder interface, and text-to-speech synthesis for engaging human-robot interaction. Tech Stack: ROS2 • Raspberry Pi 4 • Pi Pico • Stockfish • SCARA Kinematics • Hall Effect Sensors • CNC PCB • URDF/Gazebo • Python/C++',
           imageUrl:
             '/assets/images/chessmate.gif',
           link: 'https://github.com/mvipin/ChessMate-ROS2',
@@ -88,7 +88,7 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/203989-trotbot',
         },
         {
-          title: 'Computer Vision based Rubik\'s Cube Solving Robot',
+          title: 'CubeMaster: ML Cube Solver with 6-axis control',
           description:
             'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural network for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
           imageUrl:
@@ -143,7 +143,7 @@ const CONFIG = {
           hackadayUrl: 'https://hackaday.io/project/178463-slitherbot',
         },
         {
-          title: 'Cessna Flight Simulator: DIY Cockpit with Air Manager & MobiFlight',
+          title: 'SkyDeck: Cessna Cockpit with MobiFlight & AI ATC',
           description:
             'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Air Manager • MobiFlight • Arduino • AI ATC • Multi-Monitor',
           imageUrl:
