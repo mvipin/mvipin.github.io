@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'ChefMate: Kitchen Robot using VLA Model, ACT and Diffusion Policy',
           description:
-            'Advanced robotic manipulation system implemented using GR00T N1.5 Vision-Language-Action (VLA) model, ACT, and Diffusion policy for multi-ingredient sandwich assembly. Features sim-to-real and real-to-sim digital twin pipeline with Isaac Sim/Lab integration, MimicGen data augmentation. Implements comprehensive USD scene design with proper rigid body hierarchies, dual-camera system calibrated for optimal performance, and dynamic ingredient selection for automated data generation. Solves critical language-vision association challenges through LLM fine-tuning, enabling zero-shot adaptation to menu variations. Tech Stack: GR00T N1.5 VLA model • Isaac Sim/Lab • MimicGen • LeRobot • ACT • Diffusion Policy • LoRA Fine-tuning • USD Scene Design',
+            'Advanced robotic manipulation system implemented using GR00T N1.5 Vision-Language-Action (VLA) model, ACT, and Diffusion policy for multi-ingredient sandwich assembly. Features sim-to-real and real-to-sim digital twin pipeline with Isaac Sim/Lab integration, MimicGen data augmentation. Implements comprehensive USD scene design with proper rigid body hierarchies, dual-camera system calibrated for optimal performance, and dynamic ingredient selection for automated data generation. Solves critical language-vision association challenges through LLM fine-tuning, enabling zero-shot adaptation to menu variations. Tech Stack: Python | GR00T N1.5 VLA • Eagle VLM (SigLIP-2 + Qwen3) • Diffusion Transformer • LoRA • MimicGen • LeRobot | OpenCV | SO-101 Arm • STS3215 Servos • USB Cam | Isaac Sim/Lab',
           imageUrl:
             '/assets/images/chefmate.gif',
           link: 'https://github.com/mvipin/chefmate',
@@ -46,7 +46,7 @@ const CONFIG = {
         {
           title: 'GestureBot: ROS2 Computer Vision enabled Mobile Platform',
           description:
-            'Comprehensive computer vision system for robotics applications, specifically designed for the GestureBot platform. Features real-time object detection, gesture recognition, hand/pose tracking, and seamless integration with ROS 2 Navigation stack for autonomous robot control through intuitive hand gestures. Supports 9 distinct hand gestures for robot control including thumbs up/down for start/stop navigation, open palm for pause, fist for emergency stop, and directional pointing for movement commands. Implements adaptive processing system with priority-based feature management, achieving ~15 FPS object detection and ~12 FPS gesture recognition. Tech Stack: ROS2 • MediaPipe • OpenCV • Computer Vision • Gesture Recognition • Raspberry Pi 5 • Navigation • Object Detection • Hand Tracking',
+            'Comprehensive computer vision system for robotics applications, specifically designed for the GestureBot platform. Features real-time object detection, gesture recognition, hand/pose tracking, and seamless integration with ROS 2 Navigation stack for autonomous robot control through intuitive hand gestures. Supports 9 distinct hand gestures for robot control including thumbs up/down for start/stop navigation, open palm for pause, fist for emergency stop, and directional pointing for movement commands. Implements adaptive processing system with priority-based feature management, achieving ~15 FPS object detection and ~12 FPS gesture recognition. Tech Stack: Python | ROS2 Nav2 (BT Navigator • Controller Server • Planner Server) | MediaPipe • OpenCV | Raspberry Pi 5 • USB Camera',
           imageUrl:
             '/assets/images/gesturebot.gif',
           link: 'https://github.com/mvipin/gesturebot',
@@ -57,7 +57,7 @@ const CONFIG = {
         {
           title: 'Perceptor: ROS2 Autonomous Mapping & Navigation',
           description:
-            'Modified Roomba platform with integrated RPLiDAR sensor for comprehensive SLAM and navigation capabilities. Features real-time mapping using slam_toolbox with pose graph optimization, AMCL localization for precise positioning, and Nav2 navigation stack for autonomous path planning. Implements advanced navigation features including dynamic obstacle detection, keepout zones for restricted areas, variable speed limits, multi-waypoint patrol routes, and real-time collision monitoring with emergency stop capabilities. Supports both manual teleoperation via Bluetooth gamepad and fully autonomous operation with sensor fusion (wheel odometry + IMU) using Extended Kalman Filter. Tech Stack: ROS2 • SLAM • Path Planning • Autonomous Navigation • RPLiDAR • AMCL • Sensor Fusion • Bluetooth Teleoperation',
+            'Modified Roomba platform with integrated RPLiDAR sensor for comprehensive SLAM and navigation capabilities. Features real-time mapping using slam_toolbox with pose graph optimization, AMCL localization for precise positioning, and Nav2 navigation stack for autonomous path planning. Implements advanced navigation features including dynamic obstacle detection, keepout zones for restricted areas, variable speed limits, multi-waypoint patrol routes, and real-time collision monitoring with emergency stop capabilities. Supports both manual teleoperation via Bluetooth gamepad and fully autonomous operation with sensor fusion (wheel odometry + IMU) using Extended Kalman Filter. Tech Stack: Python | ROS2 (SLAM Toolbox • AMCL • Nav2 • EKF Sensor Fusion) | OpenCV | Raspberry Pi 5 • RPLiDAR • IMU • Bluetooth Gamepad',
           imageUrl:
             '/assets/images/perceptor.gif',
           link: 'https://github.com/mvipin/perceptor',
@@ -68,7 +68,7 @@ const CONFIG = {
         {
           title: 'ChessMate: AI Chess Robot with Sensors, SCARA arm',
           description:
-            'Fully autonomous chess-playing robot featuring ROS2 architecture (Raspberry Pi 4 + dual Pi Pico) with topic-based communication. Implements 6-DOF SCARA arm with sub-millimeter repeatability, NEMA 17 microstepping steppers, and four-corner calibration for 64-point square mapping. Custom CNC-milled PCBs integrate 64 hall-effect sensors with I2C expanders for real-time piece detection and 8×8 NeoPixel LED matrix for move visualization. Stockfish engine integration provides professional-grade chess AI with configurable thinking time and position analysis. Features expressive servo-driven animatronic eyes, OLED display with rotary encoder interface, and text-to-speech synthesis for engaging human-robot interaction. Tech Stack: ROS2 • Raspberry Pi 4 • Pi Pico • Stockfish • SCARA Kinematics • Hall Effect Sensors • CNC PCB • URDF/Gazebo • Python/C++',
+            'Fully autonomous chess-playing robot featuring ROS2 architecture (Raspberry Pi 5 + dual Pi Pico) with topic-based communication. Implements 6-DOF SCARA arm with sub-millimeter repeatability, NEMA 17 microstepping steppers, and four-corner calibration for 64-point square mapping. Custom CNC-milled PCBs integrate 64 hall-effect sensors with I2C expanders for real-time piece detection and 8×8 NeoPixel LED matrix for move visualization. Stockfish engine integration provides professional-grade chess AI with configurable thinking time and position analysis. Features expressive servo-driven animatronic eyes, OLED display with rotary encoder interface, and text-to-speech synthesis for engaging human-robot interaction. Tech Stack: Python • C++ | Stockfish | ROS2 (Topic Communication) | Raspberry Pi 5 • Pi Pico • NEMA 17 Steppers • Hall Effect Sensors • NeoPixel LED • OLED Display • Micro Servo | Gazebo',
           imageUrl:
             '/assets/images/chessmate.gif',
           link: 'https://github.com/mvipin/ChessMate-ROS2',
@@ -79,7 +79,7 @@ const CONFIG = {
         {
           title: 'TrotBot: ROS2 Quadruped Robot Platform',
           description:
-            'Comprehensive ROS2 quadruped robotics platform built on the CHAMP framework with configurable leg geometry. The software stack runs on Raspberry Pi 5 with PCA9685 servo control system, enhanced teleop with Nintendo Pro Controller support, dual backend Hardware Abstraction Layer (Adafruit CircuitPython + sysfs PWM), inverse kinematics with workspace validation, and full Gazebo simulation capabilities with seamless real hardware deployment. Implements layered control architecture with 100Hz gait generation, 50Hz servo updates, and safety features including deadman switches and emergency stops. Tech Stack: ROS2 • CHAMP Framework • Raspberry Pi 5 • PCA9685 • Inverse Kinematics • Gazebo Simulation • Hardware Abstraction Layer',
+            'Comprehensive ROS2 quadruped robotics platform built on the CHAMP framework with configurable leg geometry. The software stack runs on Raspberry Pi 5 with PCA9685 servo control system, enhanced teleop with Nintendo Pro Controller support, dual backend Hardware Abstraction Layer (Adafruit CircuitPython + sysfs PWM), inverse kinematics with workspace validation, and full Gazebo simulation capabilities with seamless real hardware deployment. Implements layered control architecture with 100Hz gait generation, 50Hz servo updates, and safety features including deadman switches and emergency stops. Tech Stack: Python | ROS2 CHAMP (Quadruped Controller • State Estimator) | Raspberry Pi 5 • PCA9685 • MG996R Servos • Nintendo Pro Controller | Gazebo',
           imageUrl:
             '/assets/images/trotbot.gif',
           link: 'https://github.com/mvipin/trotbot',
@@ -90,7 +90,7 @@ const CONFIG = {
         {
           title: 'CubeMaster: ML Cube Solver with 6-axis control',
           description:
-            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural network for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • OpenCV • TensorFlow/Keras • Arduino • Stepper Motors • Computer Vision • Machine Learning • G-code',
+            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural network for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python | TensorFlow/Keras CNN • Scikit-learn Decision Tree | OpenCV | Arduino • NEMA 17 Steppers • A4988 Drivers • USB Camera • GPIO LED Control',
           imageUrl:
             '/assets/images/cube.gif',
           link: 'hhttps://github.com/mvipin/rubik_cube_solver',
@@ -101,7 +101,7 @@ const CONFIG = {
         {
           title: 'Biped Hybrid: 6-DOF Serial-Parallel Kinematic Leg System',
           description:
-            'Advanced bipedal robot leg based on Disney Research hybrid mechanism combining dual 5-bar serial-parallel kinematic chains for 6 degrees of freedom motion. Features analytical inverse kinematics with <10ms computation time enabling 50Hz real-time control, Denavit-Hartenberg parameter modeling, and Jacobian-based trajectory execution. Implements parametric gait generation with phase-shifted coordination, Gaussian lift profiles for natural foot motion, and dual harmonic forward swing patterns. Achieves ±2mm end-effector precision across 0.3m³ workspace with 120mm ground clearance per step. Comprehensive unit testing framework validates sagittal, vertical, and lateral motion axes. Tech Stack: Arduino • ESP32 • PCA9685 • Denavit-Hartenberg • Inverse Kinematics • Trajectory Planning • Gait Generation • 3D Printing • Servo Control',
+            'Advanced bipedal robot leg based on Disney Research hybrid mechanism combining dual 5-bar serial-parallel kinematic chains for 6 degrees of freedom motion. Features analytical inverse kinematics with <10ms computation time enabling 50Hz real-time control, Denavit-Hartenberg parameter modeling, and Jacobian-based trajectory execution. Implements parametric gait generation with phase-shifted coordination, Gaussian lift profiles for natural foot motion, and dual harmonic forward swing patterns. Achieves ±2mm end-effector precision across 0.3m³ workspace with 120mm ground clearance per step. Comprehensive unit testing framework validates sagittal, vertical, and lateral motion axes. Tech Stack: C++ | Arduino • ESP32 • PCA9685 • MG996R Servos',
           imageUrl:
             'assets/images/bipedal.gif',
           link: 'https://github.com/mvipin/biped-hybrid',
@@ -112,7 +112,7 @@ const CONFIG = {
         {
           title: 'SkyNav: Autonomous Fixed-Wing Aircraft Platform',
           description:
-            'Advanced autonomous fixed-wing aircraft featuring complete ArduPilot autopilot integration for fully autonomous flight operations. Custom-designed airframe with 1.8m wingspan optimized for stable flight, with GPS waypoint accuracy within 2m CEP. Implements comprehensive sensor suite including dual GPS/GNSS receivers, 9-DOF IMU with magnetometer, barometric altimeter, and differential airspeed sensor for precise flight control. Features automatic takeoff and landing (ATOL) capabilities with runway approach accuracy within 5m, emergency failsafe systems with return-to-launch functionality, and real-time telemetry streaming at 915MHz. Ground control station integration via Mission Planner enables complex waypoint missions, geofencing, and live flight monitoring. Tech Stack: ArduPilot • Mission Planner • GPS/GNSS • IMU • Airspeed Sensors • RC Systems • Autonomous Navigation • Waypoint Missions • Failsafe Systems • Telemetry • Aircraft Design',
+            'Advanced autonomous fixed-wing aircraft featuring complete ArduPilot autopilot integration for fully autonomous flight operations. Custom-designed airframe with 1.8m wingspan optimized for stable flight, with GPS waypoint accuracy within 2m CEP. Implements comprehensive sensor suite including dual GPS/GNSS receivers, 9-DOF IMU with magnetometer, barometric altimeter, and differential airspeed sensor for precise flight control. Features automatic takeoff and landing (ATOL) capabilities with runway approach accuracy within 5m, emergency failsafe systems with return-to-launch functionality, and real-time telemetry streaming at 915MHz. Ground control station integration via Mission Planner enables complex waypoint missions, geofencing, and live flight monitoring. Tech Stack: C++ | ArduPilot • Mission Planner | Pixhawk • GPS/GNSS • 9-DOF IMU • Barometer • Airspeed Sensor • 915MHz Telemetry',
           imageUrl:
             '/assets/images/skynav.gif',
           link: 'https://github.com/mvipin/skynavigator',
@@ -123,7 +123,7 @@ const CONFIG = {
         {
           title: 'Self-Balancing Robot: Inverted Pendulum Control System',
           description:
-            'An advanced self-balancing robot demonstrating MPU6050 DMP hardware-accelerated orientation sensing, Bluetooth wireless monitoring, and adaptive motor control with dead band compensation. Implements three-term PID controller with tuned parameters for optimal balance performance and disturbance rejection. The system maintains dynamic stability through continuous feedback control at 200Hz sensor sampling rate. Tech Stack: Arduino • C++ • PID Control • MPU6050 DMP • I2C • PWM Motor Control • Bluetooth Serial',
+            'An advanced self-balancing robot demonstrating MPU6050 DMP hardware-accelerated orientation sensing, Bluetooth wireless monitoring, and adaptive motor control with dead band compensation. Implements three-term PID controller with tuned parameters for optimal balance performance and disturbance rejection. The system maintains dynamic stability through continuous feedback control at 200Hz sensor sampling rate. Tech Stack: C++ | Arduino • MPU6050 DMP • L298N Motor Driver • Bluetooth HC-05',
           imageUrl:
             '/assets/images/hammer.gif',
           link: 'https://github.com/mvipin/thorplusplus',
@@ -134,7 +134,7 @@ const CONFIG = {
         {
           title: 'SnakeBot: Modular Serpentine Robot',
           description:
-            'SlitherBot is a biomimetic snake robot demonstrating graceful serpentine locomotion using cost-effective components and innovative design. Features 16 modular 3D printed ribs, micro-servo actuation, and revolutionary structured sheet skin inspired by Disney Research. Implements natural snake-like movement using cosine wave motion control with infrared obstacle detection and autonomous navigation capabilities. Tech Stack: Arduino • C++ • Servo Control • PWM • Biomimetic Locomotion • 3D Printing • Structured Materials • Orthotropic Design',
+            'SlitherBot is a biomimetic snake robot demonstrating graceful serpentine locomotion using cost-effective components and innovative design. Features 16 modular 3D printed ribs, micro-servo actuation, and revolutionary structured sheet skin inspired by Disney Research. Implements natural snake-like movement using cosine wave motion control with infrared obstacle detection and autonomous navigation capabilities. Tech Stack: C++ | Arduino • Micro Servos • IR Sensors',
           imageUrl:
             '/assets/images/snake.gif',
           link: 'https://github.com/mvipin/slitherbot',
@@ -145,7 +145,7 @@ const CONFIG = {
         {
           title: 'SkyDeck: Cessna Cockpit with MobiFlight & AI ATC',
           description:
-            'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Air Manager • MobiFlight • Arduino • AI ATC • Multi-Monitor',
+            'Complete Cessna 172 flight simulator built from scratch with Air Manager providing authentic instrument panel displays and MobiFlight controlling all physical hardware. DIY implementation includes yoke controls, throttle quadrant, brake pedals, rudder pedals, flaps lever, fuel mixture controls, and radio stack—all interfaced through 12 Arduino Uno boards for seamless flight sim integration. Features AI-powered ATC communication system and immersive 200-degree field of view using triple monitor setup. Integrates with X-Plane/MSFS for realistic flight dynamics. Tech Stack: Lua • C++ | Air Manager • MobiFlight | 12× Arduino Uno • X-Plane/MSFS',
           imageUrl:
             '/assets/images/flight_sim.jpg',
           link: 'https://github.com/mvipin',
@@ -184,64 +184,73 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    // Core Programming & Systems
+    // Programming Languages
     'Python',
     'C++',
-    'C',
+    'Lua',
 
-    // Robotics & AI Stack
-    'ROS2',
-    'OpenCV',
+    // Robotics Frameworks
+    'ROS2 (Nav2, SLAM Toolbox, AMCL, CHAMP)',
+    'ArduPilot',
+    'MobiFlight',
+    'Air Manager',
+
+    // AI/ML Frameworks
+    'GR00T N1.5 VLA',
+    'Eagle VLM (SigLIP-2 + Qwen3)',
+    'Diffusion Transformer',
+    'LoRA Fine-tuning',
+    'TensorFlow/Keras',
+    'Scikit-learn',
     'MediaPipe',
-    'TensorFlow',
-    'MoveIt2',
-    'Nav2',
-    'SLAM Toolbox',
-    'AMCL',
+    'Stockfish',
 
-    // Perception & Planning
-    'Computer Vision',
-    'Gesture Recognition',
-    'Sensor Fusion (EKF)',
-    'Path Planning',
-    'Inverse Kinematics',
-    'PID Control',
+    // Computer Vision & Data
+    'OpenCV',
+    'MimicGen',
+    'LeRobot',
+
+    // Simulation
+    'Isaac Sim/Lab',
+    'Gazebo',
+    'X-Plane/MSFS',
 
     // Hardware Platforms
-    'Raspberry Pi',
+    'Raspberry Pi 4/5',
     'Arduino',
     'ESP32',
+    'Pi Pico',
+    'Pixhawk',
 
-    // Sensors & Electronics
+    // Sensors
     'RPLiDAR',
-    'RGB Cameras',
-    'Depth Cameras',
-    'IMU Sensors',
-    'DC/Servo/Stepper Motor Control',
-    'Custom PCB Design',
+    'GPS/GNSS',
+    'IMU (MPU6050)',
+    'Hall Effect Sensors',
+    'IR Sensors',
+    'USB Cameras',
+    'Airspeed Sensors',
+    'Barometers',
 
-    // Simulation & Visualization
-    'Gazebo',
-    'RViz2',
-    'URDF/Xacro',
-
-    // Operating Systems & RTOS
-    'Linux (Ubuntu/Debian)',
-    'FreeRTOS',
-    'Zephyr RTOS',
+    // Actuators & Motor Control
+    'NEMA 17 Steppers',
+    'MG996R Servos',
+    'Feetech STS3215 Servos',
+    'PCA9685',
+    'A4988 Drivers',
+    'L298N Motor Driver',
 
     // Communication & Protocols
     'I2C',
     'SPI',
     'UART',
     'Bluetooth',
-    'Wi-Fi',
-    'Device Drivers',
+    '915MHz Telemetry',
 
     // Development Tools
     'Git',
     'Docker',
-    'CI/CD',
+    'Linux (Ubuntu)',
   ],
   experiences: [
     {
