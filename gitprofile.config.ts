@@ -268,13 +268,6 @@ const CONFIG = {
       companyLink: '',
     },
     {
-      company: 'Aintu, Inc.',
-      position: 'Mobile Application Development and Data Analytics Consultant',
-      from: 'June 2016',
-      to: 'September 2019',
-      companyLink: '',
-    },
-    {
       company: 'Qualcomm',
       position: 'Senior Staff Engineer',
       from: 'September 2013',
