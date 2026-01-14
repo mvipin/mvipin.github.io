@@ -90,11 +90,11 @@ const CONFIG = {
         {
           title: 'CubeMaster: ML Cube Solver with 6-axis control',
           description:
-            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, CNN and decision tree models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural network for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python | TensorFlow/Keras CNN • Scikit-learn Decision Tree | OpenCV | Arduino • NEMA 17 Steppers • A4988 Drivers • USB Camera • GPIO LED Control',
+            'An intelligent robotic system that automatically solves Rubik\'s cubes using advanced computer vision, machine learning, and precision motor control. Features single-camera dual-orientation capture system with controlled LED lighting, MLP, CNN and MobileNetV3 models for robust color detection, Kociemba solving algorithm for optimal solutions, and 6-axis stepper motor system with G-code interface. The system captures cube images in two orientations (U,L,F then D,R,B faces), processes them through trained neural network for color detection, and executes solving moves through precision stepper motor control. Tech Stack: Python • PyTorch 2.0+ / torchvision • MLP • Shallow CNN • MobileNetV3 Transfer Learning • Albumentations • ONNX Runtime • Kociemba Algorithm • HD44780 LCD • G-code',
           imageUrl:
             '/assets/images/cube.gif',
-          link: 'hhttps://github.com/mvipin/rubik_cube_solver',
-          githubUrl: 'https://github.com/mvipin/rubik_cube_solver',
+          link: 'https://github.com/mvipin/cubemaster',
+          githubUrl: 'https://github.com/mvipin/cubemaster',
           youtubeUrl: 'https://youtu.be/mwZZhnmK3QI',
           hackadayUrl: 'https://hackaday.io/projects/hacker/1160436',
         },
