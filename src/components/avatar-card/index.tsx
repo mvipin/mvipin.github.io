@@ -1,6 +1,6 @@
 import { FALLBACK_IMAGE } from '../../constants';
 import { Profile } from '../../interfaces/profile';
-import { skeleton } from '../../utils';
+import { ga, skeleton } from '../../utils';
 import LazyImage from '../lazy-image';
 import {
   AiFillGithub,
@@ -37,6 +37,7 @@ interface AvatarCardProps {
   resumeFileUrl?: string;
   social: SanitizedSocial;
   github: SanitizedGithub;
+  googleAnalyticsId?: string;
 }
 
 const getFormattedMastodonValue = (
@@ -60,6 +61,7 @@ const getFormattedMastodonValue = (
  * @param resumeFileUrl - The URL of the resume file.
  * @param social - The social links object.
  * @param github - The GitHub object.
+ * @param googleAnalyticsId - The Google Analytics ID for tracking.
  * @returns JSX element representing the AvatarCard.
  */
 const AvatarCard: React.FC<AvatarCardProps> = ({
@@ -69,6 +71,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
   resumeFileUrl,
   social,
   github,
+  googleAnalyticsId,
 }): React.JSX.Element => {
   return (
     <div className="card shadow-lg card-sm bg-base-100">
@@ -387,6 +390,13 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               className="btn btn-outline btn-sm text-xs mt-6 opacity-50"
               download
               rel="noreferrer"
+              onClick={() => {
+                if (googleAnalyticsId) {
+                  ga.event('Download Resume', {
+                    file_url: resumeFileUrl,
+                  });
+                }
+              }}
             >
               Download Resume
             </a>

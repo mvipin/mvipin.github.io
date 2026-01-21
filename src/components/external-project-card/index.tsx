@@ -17,6 +17,15 @@ const ExternalProjectCard = ({
   loading: boolean;
   googleAnalyticId?: string;
 }) => {
+  const trackLinkClick = (projectTitle: string, linkType: string, url: string) => {
+    if (googleAnalyticId) {
+      ga.event('Click Project Link', {
+        project: projectTitle,
+        link_type: linkType,
+        link_url: url,
+      });
+    }
+  };
   const renderSkeleton = () => {
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
@@ -141,7 +150,10 @@ const ExternalProjectCard = ({
                                 rel="noreferrer"
                                 className="btn btn-circle btn-xs btn-ghost opacity-70 hover:opacity-100"
                                 title="GitHub Repository"
-                                onClick={(e) => e.stopPropagation()}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  trackLinkClick(item.title, 'github', item.githubUrl!);
+                                }}
                               >
                                 <AiFillGithub size={14} />
                               </a>
@@ -153,7 +165,10 @@ const ExternalProjectCard = ({
                                 rel="noreferrer"
                                 className="btn btn-circle btn-xs btn-ghost opacity-70 hover:opacity-100"
                                 title="YouTube Video"
-                                onClick={(e) => e.stopPropagation()}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  trackLinkClick(item.title, 'youtube', item.youtubeUrl!);
+                                }}
                               >
                                 <AiFillYoutube size={14} />
                               </a>
@@ -165,7 +180,10 @@ const ExternalProjectCard = ({
                                 rel="noreferrer"
                                 className="btn btn-circle btn-xs btn-ghost opacity-70 hover:opacity-100"
                                 title="Hackaday Project"
-                                onClick={(e) => e.stopPropagation()}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  trackLinkClick(item.title, 'hackaday', item.hackadayUrl!);
+                                }}
                               >
                                 <SiHackaday size={14} />
                               </a>

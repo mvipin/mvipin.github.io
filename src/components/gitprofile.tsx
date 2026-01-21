@@ -146,6 +146,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     resumeFileUrl={sanitizedConfig.resume.fileUrl}
                     social={sanitizedConfig.social}
                     github={sanitizedConfig.github}
+                    googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                   />
 
                   {sanitizedConfig.skills.length !== 0 && (
